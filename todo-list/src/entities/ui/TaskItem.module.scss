@@ -1,0 +1,16 @@
+.listItem {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  text-decoration: none;
+
+  &.completed {
+    text-decoration: line-through;
+  }
+}
+
+.editButton {
+  margin-right: 8px;
+}
